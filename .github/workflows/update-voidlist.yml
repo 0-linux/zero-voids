@@ -18,5 +18,5 @@ jobs:
           cd voids
           ./update-voidlist
           git add .
-          git commit -m "Automatically updated voidlist.db"
+          git commit -m "Automatically updated voidlist.db [skip ci]"
           git push -u origin main
