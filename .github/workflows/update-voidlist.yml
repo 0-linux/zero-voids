@@ -15,8 +15,9 @@ jobs:
       
       - name: Push to voids
         run: |
-          git config --global user.name "Zero linux vacuum condensator"
-          git config --global user.email "zero-condensator@zerolinux.dpdns.org"
+          git config --global user.name "Zero linux voidlist updater"
+          git config --global user.email "zero-updater@zerolinux.dpdns.org"
+          git remote set-url origin https://x-access-token:${{ secrets.VOID_PUSH_TOKEN }}@github.com/0-linux/zero-voids
           git add .
           git commit -m "Automatically updated voidlist.db"
           git push -u origin main
