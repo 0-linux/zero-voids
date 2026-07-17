@@ -10,14 +10,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v6
 
-      - name: Update voidlist
-        run: ./update-voidlist
-      
-      - name: Push to voids
+      - name: Update and push
         run: |
           git config --global user.name "Zero linux voidlist updater"
           git config --global user.email "zero-updater@zerolinux.dpdns.org"
-          git remote set-url origin "https://x-access-token:${{ secrets.VOID_PUSH_TOKEN }}@github.com/0-linux/zero-voids.git"
+          git clone "https://x-access-token:${{ secrets.VOID_PUSH_TOKEN }}@github.com/0-linux/zero-voids.git" voids
+          cd voids
+          ./update-voidlist
           git add .
           git commit -m "Automatically updated voidlist.db"
           git push -u origin main
