@@ -1,0 +1,22 @@
+name: Update voidlist
+run-name: update-voidlist
+on: 
+  workflow_dispatch:
+  push:
+jobs:
+  update-voidlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+
+      - name: Update voidlist
+        run: ./update-voidlist
+      
+      - name: Push to voids
+        run: |
+          git config --global user.name "Zero linux vacuum condensator"
+          git config --global user.email "zero-condensator@zerolinux.dpdns.org"
+          git add .
+          git commit -m "Automatically updated voidlist.db"
+          git push -u origin main
