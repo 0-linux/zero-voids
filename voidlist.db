@@ -1,2 +1,3 @@
 jq::c400fa0fbdfc6cadbfd14d7fae99846f19557364c908a01ce6acf63b597372e7:spaces/jq-1.8.2_1
 libevent::7c116ef43d24a1c165c8f44a8f41722a586e81c8c519e24ac1942f7f43dddf17:spaces/libevent-2.1.13_1
+ncurses::630519a98e110566e743c745232cee3babca0f32fc25091b7959af9b3aeb66f2:spaces/ncurses-6.6_1
