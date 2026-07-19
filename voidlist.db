@@ -1,6 +1,6 @@
 htop:ncurses:78d7c80d270ac9f5ed0645910e80216a3ff54530f8a71cc2bca78ba4b4559724:spaces/htop-3.5.1_1
 jq::ae8f130b55587a7bc3b750f11cfd735c6df0b90eeabfe59c3b41640e86107fde:spaces/jq-1.8.2_1
 libevent:openssl:dfbe698ab8ac6e9dee222ca66aee6772c413c57a43fc930f366049f6b2fb389b:spaces/libevent-2.1.13_1
-ncurses::7742ca5bb14f3cc6b22a966770fa6c47402bbceae0f67d6557b19a3ab4697f27:spaces/ncurses-6.6_1
+ncurses::1ad7dd78a0257d3fc3e02c4c02f51dbe700eb9f6113819fbbe4916c581a9f1a6:spaces/ncurses-6.6_1
 openssl::be73dccfbf9b1d6b50f0dafbde80fec6b5012cc637b3f67a9bb1291b03cd4d4d:spaces/openssl-4.0.1_1
 tmux:libevent,ncurses:ed1c353840287bdf28f8767a0c33efdeb1637bb64447565dadcb400d9b9e5d65:spaces/tmux-3.7b_1
