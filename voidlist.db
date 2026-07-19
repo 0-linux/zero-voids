@@ -1,5 +1,5 @@
 htop:ncurses:78d7c80d270ac9f5ed0645910e80216a3ff54530f8a71cc2bca78ba4b4559724:spaces/htop-3.5.1_1
-jq::fadffca5b8f40fd39c19574e9c2863f4a0bd319e83c34e7d676cabdf061f78a5:spaces/jq-1.8.2_1
+jq::ccd172fb919d1b730392bb35abd601e7c029ed5769b26a354f1252bcd7cdfb66:spaces/jq-1.8.2_1
 libevent:openssl:dfbe698ab8ac6e9dee222ca66aee6772c413c57a43fc930f366049f6b2fb389b:spaces/libevent-2.1.13_1
 ncurses::1ad7dd78a0257d3fc3e02c4c02f51dbe700eb9f6113819fbbe4916c581a9f1a6:spaces/ncurses-6.6_1
 openssl::be73dccfbf9b1d6b50f0dafbde80fec6b5012cc637b3f67a9bb1291b03cd4d4d:spaces/openssl-4.0.1_1
